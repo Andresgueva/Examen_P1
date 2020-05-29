@@ -32,7 +32,7 @@ async function getCountry(pais, cod) {
     }
 }
 
-async function getSuscrip(pais, cod, Anio) {
+async function getSuscrip(pais, cod, anio) {
     for (var i = 0; i < pais.length; i++) {
         let va = Object.values(pais[i]);
         if (va[1] == cod) {
